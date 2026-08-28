@@ -11,8 +11,8 @@ authors = "ElectricSteve"
 description = "${description}"
 
 logoFile = "assets/bundletweak/icon.png"
-displayURL = "https://github.com/electricsteve/bundletweak"
-issueTrackerUrl = "https://github.com/electricsteve/bundletweak/issues"
+displayURL = "https://github.com/electricsteve/Bundle-Tweak"
+issueTrackerUrl = "https://github.com/electricsteve/Bundle-Tweak/issues"
 
 # For newer neoforge versions
 iconFile = "assets/bundletweak/icon.png"
