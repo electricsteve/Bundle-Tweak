@@ -51,4 +51,4 @@ stonecutter {
     }
 }
 
-rootProject.name = "Template Multiloader"
+rootProject.name = "Bundle Tweak"
