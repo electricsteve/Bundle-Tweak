@@ -15,7 +15,7 @@ public class BundleTweakFabric implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
 
         //? if !release
-        LOGGER.warn("I'm still a template!");
+        //LOGGER.warn("I'm still a template!");
 
         //? if fapi: <0.100
         //LOGGER.info("Fabric API is old on this version");

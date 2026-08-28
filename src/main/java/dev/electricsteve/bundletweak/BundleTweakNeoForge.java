@@ -5,15 +5,15 @@ package dev.electricsteve.bundletweak;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 
-import static com.example.TemplateModCommon.*;
+import static dev.electricsteve.bundletweak.BundleTweakCommon.*;
 
-@Mod("template")
-public class TemplateModNeoForge {
-    public TemplateModNeoForge(IEventBus modEventBus, ModContainer modContainer) {
+@Mod("bundletweak")
+public class BundleTweakNeoForge {
+    public BundleTweakNeoForge(IEventBus modEventBus, ModContainer modContainer) {
         LOGGER.info("Hello NeoForge world!");
 
         //? if !release
-        LOGGER.warn("I'm still a template!");
+        //LOGGER.warn("I'm still a template!");
     }
 }
 *///?}
