@@ -37,11 +37,17 @@ stonecutter {
             for (loader in loaders) version("$project-$loader", version).buildscript("build.$loader.gradle.kts")
         }
 
+        // 24w09a (1.20.5) moved getWeight from BundleItem to BundleContents
+        // 24w14a (1.20.5) changed getWeight output from int to Fraction
+        // 26.1-snapshot-3 changed getWeight output from Fraction to DataResult<Fraction> and input from ItemStack to ItemInstance
+
         // See https://stonecutter.kikugie.dev/wiki/start/#choosing-minecraft-versions
-        match("1.21.1", "fabric", "neoforge")
-        match("1.21.11", "fabric", "neoforge")
-        match("26.2.x", "fabric", "neoforge", version = "26.2")
-        vcsVersion = "26.2.x-fabric"
+        match("1.17_1.17.1", "fabric", version = "1.17")
+        match("1.18_1.20.4", "fabric", version = "1.18") // Because 1.18 requires java 17
+        match("1.20.5_1.20.6", "fabric", version = "1.20.5")
+        match("1.21_1.21.11", "fabric", "neoforge", version = "1.21") // When neo appeared (well when it started gaining traction)
+        match("26.1_2", "fabric", "neoforge", version = "26.1")
+        vcsVersion = "26.1_2-fabric"
     }
 }
 
