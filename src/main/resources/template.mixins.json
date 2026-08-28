@@ -3,7 +3,7 @@
   "package": "com.example.mixin",
   "compatibilityLevel": "${java}",
   "mixins": [
-    "ExampleMixin"
+      "BundleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
