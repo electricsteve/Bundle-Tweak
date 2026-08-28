@@ -10,9 +10,13 @@ version = "${version}"
 authors = "ElectricSteve"
 description = "${description}"
 
-logoFile = "../assets/bundletweak/icon.png"
+logoFile = "assets/bundletweak/icon.png"
 displayURL = "https://github.com/electricsteve/bundletweak"
 issueTrackerUrl = "https://github.com/electricsteve/bundletweak/issues"
+
+# For newer neoforge versions
+iconFile = "assets/bundletweak/icon.png"
+bannerFile = "assets/bundletweak/banner.png"
 
 [[mixins]]
 config = "bundletweak.mixins.json"
