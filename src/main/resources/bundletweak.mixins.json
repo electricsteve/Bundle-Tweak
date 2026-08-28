@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "com.example.mixin",
+  "package": "dev.electricsteve.bundletweak.mixin",
   "compatibilityLevel": "${java}",
   "mixins": [
-      "BundleMixin"
+    "BundleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

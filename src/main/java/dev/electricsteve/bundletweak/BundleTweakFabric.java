@@ -1,11 +1,11 @@
-package com.example;
+package dev.electricsteve.bundletweak;
 
 //? if fabric {
 import net.fabricmc.api.ModInitializer;
 
-import static com.example.TemplateModCommon.*;
+import static dev.electricsteve.bundletweak.BundleTweakCommon.*;
 
-public class TemplateModFabric implements ModInitializer {
+public class BundleTweakFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.

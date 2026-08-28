@@ -1,4 +1,4 @@
-package com.example;
+package dev.electricsteve.bundletweak;
 
 //? if neoforge {
 /*import net.neoforged.bus.api.IEventBus;

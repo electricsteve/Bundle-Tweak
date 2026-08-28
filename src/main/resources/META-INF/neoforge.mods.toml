@@ -7,15 +7,15 @@ loaderVersion="[1,)"
 modId = "${id}"
 displayName = "${name}"
 version = "${version}"
-authors = "Me!"
-description = "This is an example description! Tell everyone what your mod is about!"
+authors = "ElectricSteve"
+description = "${description}"
 
-logoFile = "assets/template/icon.png"
-#displayURL = "..."
-#issueTrackerUrl = "..."
+logoFile = "../assets/bundletweak/icon.png"
+displayURL = "https://github.com/electricsteve/bundletweak"
+issueTrackerUrl = "https://github.com/electricsteve/bundletweak/issues"
 
 [[mixins]]
-config = "template.mixins.json"
+config = "bundletweak.mixins.json"
 
 [[dependencies.${id}]]
 modId = "minecraft"

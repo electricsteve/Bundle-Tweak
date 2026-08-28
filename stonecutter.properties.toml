@@ -1,8 +1,9 @@
 # See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
-mod.id = "template"
-mod.name = "Template"
-mod.group = "com.example"
+mod.id = "bundletweak"
+mod.name = "Bundle Tweak"
+mod.group = "dev.electricsteve"
 mod.version = "0.1.0"
+mod.description = "A mod that tweaks the bundle item so all items only take up 1/64 of the bundle's space."
 
 deps.fabric_loader = "0.19.3"
 loomx.loom_version = "1.17-SNAPSHOT"

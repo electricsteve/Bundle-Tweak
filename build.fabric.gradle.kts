@@ -53,7 +53,7 @@ dependencies {
 loom {
     fabricModJsonPath = rootProject.file("src/main/resources/fabric.mod.json") // Useful for interface injection
     accessWidenerPath = sc.process(
-        rootProject.file("src/main/resources/template.ct"),
+        rootProject.file("src/main/resources/bundletweak.ct"),
         "build/processed.ct"
     )
 
@@ -92,6 +92,7 @@ tasks {
             register("id", "mod.id")
             register("name", "mod.name")
             register("version", "mod.version")
+            register("description", "mod.description")
             register("minecraft", "mod.mc_compat")
         }
 

@@ -3,26 +3,26 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "${description}",
   "authors": [
-    "Me!"
+    "ElectricSteve"
   ],
   "contact": {
-    "homepage": "https://stonecutter.kikugie.dev/",
-    "sources": "https://codeberg.org/stonecutter/template-fabric"
+    "homepage": "https://github.com/electricsteve/bundletweak",
+    "sources": "https://github.com/electricsteve/bundletweak"
   },
   "license": "CC0-1.0",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/bundletweak/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.TemplateModFabric"
+      "dev.electricsteve.bundletweak.BundleTweakFabric"
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "bundletweak.mixins.json"
   ],
-  "accessWidener": "template.ct",
+  "accessWidener": "bundletweak.ct",
   "depends": {
     "fabricloader": ">=0.17",
     "minecraft": "${minecraft}"
